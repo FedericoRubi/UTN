@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    background-color: brown;
+    color:whitesmoke;
+    padding: 10px 0px 10px 0px;
+    text-transform:uppercase;
+    text-shadow: 10px 10px 20px black;
+    font-size: 50px;
+    box-shadow: 10px 10px 20px black;
+    background: linear-gradient(brown, #9c674c);
+    font-family: Verdana;
+}
+
+p{
+color:red;
+font-weight: normal;
+text-align: justify;
+padding-right: 10px;
+
+
+}
+
+img{
+    max-width: 300px;
+    align-content: center;
+}
