@@ -21,6 +21,25 @@ padding-right: 10px;
 }
 
 img{
-    max-width: 300px;
-    align-content: center;
+    max-width: 50%;
+    margin-bottom: 0;
+    
+}
+#cabezal{
+    position: absolute;
+    margin-top: 0;
+
+}
+#cuerpo{
+    position:relative;
+    
+}
+#imagen{
+    margin:0 auto;
+    background-color: blue;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    
+
 }
