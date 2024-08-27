@@ -1,45 +1,72 @@
-h1{
+body {
+    margin-top: 60px;
+
+}
+
+h1 {
     text-align: center;
     background-color: brown;
-    color:whitesmoke;
-    padding: 10px 0px 10px 0px;
-    text-transform:uppercase;
+    color: whitesmoke;
+    padding: 10px;
+    text-transform: uppercase;
     text-shadow: 10px 10px 20px black;
     font-size: 50px;
     box-shadow: 10px 10px 20px black;
     background: linear-gradient(brown, #9c674c);
     font-family: Verdana;
+    font-size: 250%;
 }
 
-p{
-color:red;
-font-weight: normal;
-text-align: justify;
-padding-right: 10px;
-
-
+h2 {
+    padding-left: 10px;
+    font-size: 200%;
 }
 
-img{
+p {
+    color: red;
+    font-weight: normal;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.prueba {
+    text-decoration: underline overline;
+    color:blue;
+}
+
+img {
     max-width: 50%;
     margin-bottom: 0;
-    
 }
-#cabezal{
-    position: absolute;
-    margin-top: 0;
 
+#cabezal {
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
-#cuerpo{
-    position:relative;
-    
+
+#cuerpo {
+    position: relative;
+    background-color: #CCCCCC;
+    width: 70%;
+    margin: 0 auto;
+    z-index: -10;
 }
-#imagen{
-    margin:0 auto;
+
+#imagen {
+
+    margin: 0 auto;
     background-color: blue;
     width: 60%;
     display: flex;
     justify-content: center;
-    
+    position: relative;
+    z-index: -1;
+}
 
+#cuerpo h3 {
+    font-size: 150%;
+    color:greenyellow;
+    padding: 10px;
 }
