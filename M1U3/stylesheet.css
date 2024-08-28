@@ -15,6 +15,7 @@ h1 {
     background: linear-gradient(brown, #9c674c);
     font-family: Verdana;
     font-size: 250%;
+    margin: 0;
 }
 
 h2 {
