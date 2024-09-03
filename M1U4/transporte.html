@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como me conviene viajar</title>
+</head>
+
+<body>
+
+    <script>
+        var num = parseInt(prompt('Ingrese metros de distancia a recorrer:', ''));
+        if (num <= 1000) {
+            console.log(`Te recomiendo que viajes a pie`)
+        } else if (num > 1000 && num <= 10000) {
+            console.log(`Te recomiendo que viajes en bicicleta`)
+        }
+        else if (num > 10000 && num <= 30000) {
+            console.log(`Te recomiendo que viajes en colectivo`)
+        }
+        else if (num > 30000 && num <= 100000) {
+            console.log(`Te recomiendo que viajes en auto`)
+        }
+        else if (num > 100000) {
+            console.log(`Te recomiendo que viajes en avión`)
+        }
+    </script>
+</body>
+
+</html>
