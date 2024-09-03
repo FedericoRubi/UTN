@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Como me conviene viajar</title>
+    <title>Cómo me conviene viajar</title>
 </head>
 
 <body>
 
     <script>
+        //Opción con una sola variable declarada
+
         var num = parseInt(prompt('Ingrese metros de distancia a recorrer:', ''));
         if (num <= 1000) {
             console.log(`Te recomiendo que viajes a pie`)
@@ -26,6 +28,36 @@
             console.log(`Te recomiendo que viajes en avión`)
         }
     </script>
+
+    <script>
+        /*
+        
+        //Opción con dos variables declaradas
+
+       var num = parseInt(prompt('Ingrese metros de distancia a recorrer:', ''));
+       
+       let medio = ' ';
+       
+       if (num <= 1000) {
+           medio = 'a pie';
+       } else if (num > 1000 && num <= 10000) {
+           medio = 'en bicicleta';
+       }
+       else if (num > 10000 && num <= 30000) {
+           medio = 'en colectivo';
+       }
+       else if (num > 30000 && num <= 100000) {
+           medio = 'en auto';
+       }
+       else if (num > 100000) {
+           medio = 'en avión';
+       }
+       console.log(`Para ${num} metros, recomendamos que viajes ${medio}`)
+          
+       */
+    </script>
+
+
 </body>
 
 </html>

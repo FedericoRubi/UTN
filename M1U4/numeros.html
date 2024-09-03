@@ -4,12 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=Í, initial-scale=1.0">
-    <title>Que numero es el mas grande</title>
+    <title>Qué número es el más grande</title>
 </head>
 
 <body>
     <script>
+        const num = [110, 38, 44, 1570, 99, 1];
 
+        let MasGrande = 0;
+
+        for (let i = 0; i < num.length; i++) {
+            if (num[i] > MasGrande) {
+                MasGrande = num[i];
+            }
+        }
+        document.write(`El número más grande de la siguiente lista: ${num}, es ${MasGrande}.`);
     </script>
 </body>
 
