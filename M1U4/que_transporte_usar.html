@@ -14,18 +14,18 @@
 
         var num = parseInt(prompt('Ingrese metros de distancia a recorrer:', ''));
         if (num <= 1000) {
-            console.log(`Te recomiendo que viajes a pie`)
+            document.write(`Para una distancia de ${num} metros, te recomiendo que viajes a pie`)
         } else if (num > 1000 && num <= 10000) {
-            console.log(`Te recomiendo que viajes en bicicleta`)
+            document.write(`Para una distancia de ${num} metros, tecomiendo que viajes en bicicleta`)
         }
         else if (num > 10000 && num <= 30000) {
-            console.log(`Te recomiendo que viajes en colectivo`)
+            document.write(`Para una distancia de ${num} metros, te recomiendo que viajes en colectivo`)
         }
         else if (num > 30000 && num <= 100000) {
-            console.log(`Te recomiendo que viajes en auto`)
+            document.write(`Para una distancia de ${num} metros, te recomiendo que viajes en auto`)
         }
         else if (num > 100000) {
-            console.log(`Te recomiendo que viajes en avión`)
+            document.write(`Para una distancia de ${num} metros, te recomiendo que viajes en avión`)
         }
     </script>
 

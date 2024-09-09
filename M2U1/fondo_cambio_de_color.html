@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fondo_cambio_de_color.css">
+    <title>Cambio de color de fondo</title>
+
+</head>
+
+<body>
+
+    <body>
+        <h1>Ejercicio cambio de color de fondo</h1>
+        <div class="boton rojo"></div>
+        <div class="boton azul"></div>
+        <div class="boton verde"></div>
+        <script>
+            let body = document.querySelector('body');
+            document.querySelector('.rojo').addEventListener('click', function () {
+                body.style.backgroundColor = ('red')
+            });
+
+            document.querySelector('.azul').addEventListener('click', function () {
+                body.style.backgroundColor = ('blue')
+            });
+
+            document.querySelector('.verde').addEventListener('click', function () {
+                body.style.backgroundColor = ('green')
+            });
+
+        </script>
+
+
+    </body>
+
+
+</html>

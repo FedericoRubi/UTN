@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Caracteres</title>
+</head>
+
+<body>
+    <h1>Prueba de contador de caracteres</h1>
+
+    <textarea id="texto" oninput="contarCaracteres()" placeholder="Escribí algo..." cols="30" rows="10"></textarea>
+    <br>
+
+    <p>Llevás <input type="text" id="contador" readonly cols="1"> caracteres escritos</p>
+
+    <script>
+        function contarCaracteres() {
+            var cantidad = document.getElementById("texto").value.length;
+            document.getElementById("contador").value = cantidad;
+        }
+    </script>
+</body>
+
+</html>
